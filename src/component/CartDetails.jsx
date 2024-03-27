@@ -74,7 +74,7 @@ const CartDetails = () => {
       "Content-Type": "application/json",
     };
     const response = await fetch(
-      `${import.meta.env.URL}/api/create-checkout-session`,
+      `${import.meta.env.SERVICE_URL}/api/create-checkout-session`,
       {
         method: "POST",
         headers: headers,
